@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+.streamlit/secrets.toml
+.mypy_cache/
+.ruff_cache/

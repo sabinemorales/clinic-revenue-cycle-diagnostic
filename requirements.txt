@@ -1,0 +1,4 @@
+numpy>=1.26
+pandas>=2.2
+streamlit>=1.40
+altair>=5.0
