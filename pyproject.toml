@@ -1,0 +1,23 @@
+[project]
+name = "up4u-audit"
+version = "1.0.0"
+description = "Synthetic No-Show Recovery Audit demo for UP4U.ai"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Sabine Morales" }]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "streamlit>=1.40",
+  "altair>=5.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
